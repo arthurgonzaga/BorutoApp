@@ -2,9 +2,9 @@ package br.com.borutoapp.domain.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import br.com.borutoapp.util.Constants.HERO_DATABASE_TABLE
+import br.com.borutoapp.util.Constants.HERO_TABLE
 
-@Entity(tableName = HERO_DATABASE_TABLE)
+@Entity(tableName = HERO_TABLE)
 data class Hero(
     @PrimaryKey(autoGenerate = false)
     val id: Int,
